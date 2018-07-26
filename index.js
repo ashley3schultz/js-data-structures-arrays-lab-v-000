@@ -38,3 +38,9 @@ function removeLastDriver() {
   newdrivers.pop()
   return newdrivers
 }
+
+function removeFirstDriver() {
+  const newdrivers = drivers.slice()
+  newdrivers.shift()
+  return newdrivers
+}
