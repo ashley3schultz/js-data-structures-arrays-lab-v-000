@@ -22,13 +22,13 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function appendDriver(name) {
-  newdrivers = drivers.slice()
+  const newdrivers = drivers.slice()
   newdrivers.push(name)
   return newdrivers
 }
 
 function prependDriver(name) {
-  newdrivers = drivers.slice()
+  const newdrivers = drivers.slice()
   newdrivers.unshift(name)
   return newdrivers
 }
