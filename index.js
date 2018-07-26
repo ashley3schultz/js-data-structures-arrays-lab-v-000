@@ -15,3 +15,8 @@ function destructivelyRemoveLastDriver() {
   drivers.pop()
   return drivers
 }
+
+function destructivelyRemoveFirstDriver() {
+  drivers.shift()
+  return drivers
+}
